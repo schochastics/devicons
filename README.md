@@ -61,7 +61,7 @@ When the size is invalid, no size changes are made.
   | 9x                   | 9em       |
   | 10x                  | 10em      |
 
-- LaTeX-style sizing: `{{< ai open-access size=Huge >}}`.
+- LaTeX-style sizing: `{{< devicon lua-plain-wordmark size=Huge >}}`.
 
   | Sizing Command                   | Font Size (HTML) |
   | -------------------------------- | ---------------- |
@@ -76,12 +76,12 @@ When the size is invalid, no size changes are made.
   | huge (= `\huge`)                 | 2em              |
   | Huge (= `\Huge`)                 | 2.5em            |
 
-- CSS-style sizing: `{{< ai open-access size=2em >}}`.
+- CSS-style sizing: `{{< devicon lua-plain-wordmark size=2em >}}`.
 
 ### Coloring icon
 
 The color of the icon can be changed via the `color` parameter.  
-`{{< ai open-access color=red >}}`
+`{{< devicon lua-plain-wordmark color=red >}}`
 
 
 ## Example
