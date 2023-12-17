@@ -87,5 +87,3 @@ The color of the icon can be changed via the `color` parameter.
 ## Example
 
 Here is the source code for a minimal example: [example.qmd](example.qmd)
-
-This is the output of `example.qmd` for [HTML](https://schochastics.quarto.pub/academicons-quarto-extension/).
