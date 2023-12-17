@@ -1,0 +1,33 @@
+---
+title: Devicons Quarto Extension
+format: html
+---
+
+This extension allows you to use [devicons](https://devicon.dev/) in your Quarto HTML documents. It provides an `{{{< devicon >}}}` shortcode:
+
+- Mandatory `<icon-name>`:
+  ``` markdown
+  {{{< devicon <icon-name> >}}}
+  ```
+
+- Optional `<size=...>`:
+  ``` markdown
+  {{{< devicon <icon-name> <size=...> >}}}
+  ```
+
+- Optional `<color=...>`:
+  ``` markdown
+  {{{< devicon <icon-name> <color=...> >}}}
+  ```
+
+For example:
+
+| Shortcode                          | Icon                           |
+|------------------------------------|--------------------------------|
+| `{{{< devicon python-plain-wordmark >}}}`               | {{< devicon python-plain-wordmark >}}               |
+| `{{{< devicon cplusplus-plain >}}}`      | {{< devicon cplusplus-plain >}}      |
+| `{{{< devicon lua-plain-wordmark >}}}`         | {{< devicon lua-plain-wordmark >}}         |
+| `{{{< devicon lua-plain-wordmark size=5x >}}}` | {{< devicon   lua-plain-wordmark size=5x >}} |
+| `{{{< devicon lua-plain-wordmark size=3em >}}}` | {{< devicon  lua-plain-wordmark size=3em >}} |
+| `{{{< devicon lua-plain-wordmark color=red >}}}` | {{< devicon lua-plain-wordmark color=red >}} |
+

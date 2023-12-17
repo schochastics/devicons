@@ -1,0 +1,6 @@
+title: Support for devicons
+author: David Schoch
+version: 1.0.0
+contributes:
+  shortcodes:
+    - devicons.lua
