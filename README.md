@@ -20,10 +20,10 @@ If you're using version control, you will want to check in this directory.
 To embed an icon, use the `{{{< devicon >}}}` shortcode. For example:
 
 ```default
-{{< ai python-plain-wordmark >}} 
-{{< ai cplusplus-plain >}}
-{{< ai lua-plain-wordmark }}
-{{< ai lua-plain-wordmark size=5x >}}
+{{< devicon python-plain-wordmark >}}
+{{< devicon cplusplus-plain >}}
+{{< devicon lua-plain-wordmark >}}
+{{< devicon lua-plain-wordmark size=5x >}}
 ```
 
 You can browse all of the available icons here:
